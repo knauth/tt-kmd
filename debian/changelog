@@ -1,3 +1,31 @@
+tt-kmd (2.4.2) noble; urgency=medium
+
+  [ Joel Smith ]
+  * Remove Grayskull source files
+  * Rename complete_pcie_init function
+
+  [ Chris Friedt ]
+  * makefile: force installation to support downgrades
+
+  [ Joel Smith ]
+  * Fix incorrect return code for DMA alloc ioctl
+  * Implement tracking for PCI BAR memory mappings
+  * Add initial infrastructure for debugfs
+  * Add mappings attribute for resource visibility
+  * Add test case for debugfs mappings attribute
+
+  [ Jonathan Baker ]
+  * Updated to community issue labeling v2
+
+  [ June Knauth (tenstorrent) ]
+  * Create v1 RPM build
+  * Include build RPM workflow in create release
+
+  [ Tenstorrent Releases ]
+  * Updating version to 2.4.2
+
+ -- Tenstorrent Releases <releases@tenstorrent.com>  Thu, 09 Oct 2025 17:50:19 +0000
+
 tt-kmd (2.4.1) unstable; urgency=medium
 
   * Remove Secondary Bus Reset from driver-managed reset paths
